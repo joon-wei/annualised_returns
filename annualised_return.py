@@ -8,8 +8,6 @@ tickers = ["VOO", "AAPL", "INTC", "TSM", "AMD"]
 endDate = date.today()
 startDate = endDate - timedelta(days=365)
 
-columns = ["Ticker", "Annualised Return"]
-
 annualised_returns = pd.DataFrame(columns=["Ticker", "Annualised Return"])
 
 for ticker in tickers:
